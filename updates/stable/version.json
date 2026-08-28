@@ -2,16 +2,17 @@
   "schema_version": 1,
   "app_id": "com.heattreatment.summarytool",
   "channel": "stable",
-  "version": "0.12.6",
+  "version": "0.12.7",
   "release_date": "2026-08-28",
   "mandatory": false,
-  "package_url": "https://github.com/murchase/HeatTreatmentTool-Updates/releases/download/v0.12.6/HeatTreatmentTool_0.12.6.zip",
-  "package_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-  "package_size": 1,
+  "package_url": "https://raw.githubusercontent.com/murchase/HeatTreatmentTool-Updates/main/packages/stable/HeatTreatmentTool_0.12.7_test.zip",
+  "package_sha256": "ec2afca68fbea59e27f23e53160be7c0becdc6f400d83d528ed946c3a3d6f1c3",
+  "package_size": 946,
   "data_schema_version": 1,
-  "min_supported_version": "0.12.0",
+  "min_supported_version": "0.12.6",
   "notes": [
-    "GitHub update repository bootstrap manifest.",
-    "v0.12.6 clients should treat this as the current version; no update should be downloaded."
+    "首次真实互联网自动更新闭环测试。",
+    "本测试更新包仅更新软件版本标识文件，用于验证版本发现、下载、SHA-256校验、独立更新器、备份、替换、回滚与自动重启链路。",
+    "Word、Excel、字段映射、增量索引及其他业务数据不会上传或被替换。"
   ]
 }
